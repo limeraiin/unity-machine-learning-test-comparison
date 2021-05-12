@@ -3,7 +3,8 @@ In this machine learning experiment, I have analyzed the effect of using floatin
 
 ## About the Experiment
 
-I have created a very basic machine learning scenario. The AI has to prevent colliding with obstacles and the ceiling. It gets a little reward For each successful dodging and a big punishment for every colliding.
+I have created a very basic machine learning scenario. The AI has to prevent colliding with obstacles and the ceiling. It gets a little reward For each successful dodging and a big punishment for every colliding.  
+(Obsticles are randomly spawned)
 
 Used tools: Pytorch, ML Agents (1.1.0-preview 3), Tensorboard, Unity3D.
 
