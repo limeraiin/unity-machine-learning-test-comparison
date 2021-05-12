@@ -3,7 +3,7 @@ In this machine learning experiment, I have analyzed the effect of using floatin
 
 ## About the Experiment
 
-I have created a very basic machine learning scenario. The AI has to prevent colliding with obstacles and the ceiling. It gets a little reward For each successful dodging and a big punishment for every colliding.  
+I have created a very basic machine learning scenario. The AI has to prevent colliding with obstacles and the ceiling. It gets a little reward for each successful dodging and a big punishment for every colliding.  
 
 Used tools: Pytorch, ML Agents (1.1.0-preview 3), Tensorboard, Unity3D.
 
@@ -26,7 +26,7 @@ Both tests ran for one million steps. Blue and orange lines represent the mean r
 <img src="https://user-images.githubusercontent.com/64265868/118035386-d15bd700-b373-11eb-8858-84aa18f43515.jpg" alt="drawing" width="600"/>
 </p>
 
-It was pretty hard to control the jumps even while the agent was in human control. As can be seen above, using float data type for AI actions shortened the learning period dramatically. After around 800k steps, test runs started to complete with some to no mistakes but they didn't contribute to the mean reward graph.
+It was pretty hard to control the jumps even while the agent was in human control. As can be seen above, using float data type for AI actions shortened the learning period dramatically. After around 800k steps, test runs started to complete with little to no mistakes but they didn't contribute to the mean reward graph.
 
 The mean loss of the value update correlates to how well the model is able to predict the value of each state. This should increase while the agent is learning, and then decrease once the reward stabilizes.
 
