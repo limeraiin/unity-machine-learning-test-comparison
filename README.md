@@ -35,7 +35,7 @@ The mean loss of the value update correlates to how well the model is able to pr
 
 ## Working Example
 
-The brain of the AI with float type actions after 1 million learning step:
+Running a test using the brain of the AI with float type actions after 1 million learning step:
 
 
 ![test3](https://user-images.githubusercontent.com/64265868/118038183-79bf6a80-b377-11eb-8160-1a21d6620db8.gif)
