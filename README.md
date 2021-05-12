@@ -14,7 +14,7 @@ Used tools: Pytorch, ML Agents (1.1.0-preview 3), Tensorboard, Unity3D.
 
 8 different playgrounds are used to speed up the learning process. Children of each agent has a vertically attached "Ray Perception Sensor" component. There have been no observations other than that.
 
-There are rewarding walls that agents have to collide behind every obstacle.  
+There are rewarding walls that agents have to collide into behind every obstacle.  
 (Obsticles are randomly spawned)
 
 ## Results
