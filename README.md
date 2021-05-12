@@ -4,7 +4,6 @@ In this machine learning experiment, I have analyzed the effect of using floatin
 ## About the Experiment
 
 I have created a very basic machine learning scenario. The AI has to prevent colliding with obstacles and the ceiling. It gets a little reward For each successful dodging and a big punishment for every colliding.  
-(Obsticles are randomly spawned)
 
 Used tools: Pytorch, ML Agents (1.1.0-preview 3), Tensorboard, Unity3D.
 
@@ -15,7 +14,8 @@ Used tools: Pytorch, ML Agents (1.1.0-preview 3), Tensorboard, Unity3D.
 
 8 different playgrounds are used to speed up the learning process. Children of each agent has a vertically attached "Ray Perception Sensor" component. There have been no observations other than that.
 
-There are rewarding walls that agents have to collide behind every obstacle. 
+There are rewarding walls that agents have to collide behind every obstacle.  
+(Obsticles are randomly spawned)
 
 ## Results
 
