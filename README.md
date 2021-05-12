@@ -18,7 +18,7 @@ There are rewarding walls that agents have to collide behind every obstacle.
 
 ## Results
 
-Both tests ran for one million steps. Blue and orange lines represent the mean reward for float and integer actions of the AI respectively.
+Both tests ran for one million steps. Blue and orange lines represent the mean reward for float and integer actions of the AI respectively.  
 (Each reward has a value of 0.1f, punishments have -1f)
 
 <p align="center">
@@ -27,7 +27,7 @@ Both tests ran for one million steps. Blue and orange lines represent the mean r
 
 It was pretty hard to control the jumps even while the agent was in human control. As can be seen above, using float data type for AI actions shortened the learning period dramatically. After around 800k steps, test runs started to complete with some to no mistakes but they didn't contribute to the mean reward graph.
 
-The mean loss of the value update. Correlates to how well the model is able to predict the value of each state. This should increase while the agent is learning, and then decrease once the reward stabilizes.
+The mean loss of the value update correlates to how well the model is able to predict the value of each state. This should increase while the agent is learning, and then decrease once the reward stabilizes.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/64265868/118036278-0d436c00-b375-11eb-912f-2cb735ba0e4b.jpg" alt="drawing" width="600"/>
